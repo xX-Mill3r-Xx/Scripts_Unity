@@ -1,0 +1,78 @@
+
+/* estilo para telas menores que 768px (exemplo: smartphones) */
+@media (max-width: 729px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navegacao {
+        background-color: blueviolet;
+        padding: 12px 0;
+        margin: 0;
+    }
+
+    .navegacao li {
+        display: inline-block;
+        width: 9%;
+        margin-left: 18px;
+        box-sizing: border-box;
+    }
+
+    .navegacao a {
+        color: white;
+        margin-left: 3em;
+        text-align: center;
+    }
+}
+
+/* estilo para telas entre 768px e 1024px (exemplo: tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navegacao {
+        background-color: blueviolet;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .navegacao li {
+        display: inline-block;
+        width: 9%;
+        margin-left: 18px;
+        box-sizing: border-box;
+    }
+
+    .navegacao a {
+        color: white;
+        margin-left: 3em;
+        text-align: center;
+    }
+}
+
+/* estilo para telas maiores que 1024px (exemplo: desktops) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .navegacao {
+        background-color: blueviolet;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .navegacao li {
+        display: inline-block;
+        width: 9%;
+        margin-left: 18px;
+        box-sizing: border-box;
+    }
+
+    .navegacao a {
+        color: white;
+        margin-left: 3em;
+        text-align: center;
+    }
+}
